@@ -16,11 +16,11 @@ export const impressionHandler = (reporting) => {
   }
 }
 
-//const API_HOST = 'https://api.cloudbees.io'
+const API_HOST = 'https://api.cloudbees.io'
 //const API_HOST = 'https://api-staging.saas-dev.beescloud.com'
 const options = {
   configurationFetchedHandler: configurationFetchedHandler,
-  impressionHandler: impressionHandler}/*,
+  impressionHandler: impressionHandler,
   configuration: {
     API_HOST: API_HOST,
     CD_API_ENDPOINT: `${API_HOST}/device/get_configuration`,
@@ -33,7 +33,7 @@ const options = {
   },
   debugLevel: 'verbose',
   disableSignatureVerification: true
-}*/
+}
 
 export const Flags = {
   score: new Rox.Flag(false),
