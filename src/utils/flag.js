@@ -16,12 +16,12 @@ export const impressionHandler = (reporting) => {
   }
 }
 
-//const API_HOST = 'https://api.cloudbees.io'
+const API_HOST = 'https://api.cloudbees.io'
 //const API_HOST = 'https://api-staging.saas-dev.beescloud.com'
 const options = {
   configurationFetchedHandler: configurationFetchedHandler,
-  impressionHandler: impressionHandler
-  /*configuration: {
+  impressionHandler: impressionHandler,
+  configuration: {
     API_HOST: API_HOST,
     CD_API_ENDPOINT: `${API_HOST}/device/get_configuration`,
     CD_S3_ENDPOINT: 'https://development-conf.rollout.io/',
@@ -32,7 +32,7 @@ const options = {
     NOTIFICATIONS_ENDPOINT: 'https://api-staging.saas-dev.beescloud.com/sse'
   },
   debugLevel: 'verbose',
-  disableSignatureVerification: true*/
+  disableSignatureVerification: true
 }
 
 export const Flags = {
@@ -47,5 +47,4 @@ Rox.setCustomBooleanProperty('isLoggedIn', isLoggedIn())
 Rox.setCustomStringProperty('company', getCompany())
 
 Rox.register('default', Flags)
-Rox.setup('5e42bf99958d710009e4b37c', options)
-//Rox.setup('597b8a9b-6869-4a63-7371-828bf21a0c5c', options)
+Rox.setup('597b8a9b-6869-4a63-7371-828bf21a0c5c', options)
