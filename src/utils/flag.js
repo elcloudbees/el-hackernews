@@ -20,7 +20,9 @@ export const impressionHandler = (reporting) => {
 //const API_HOST = 'https://api-staging.saas-dev.beescloud.com'
 const options = {
   configurationFetchedHandler: configurationFetchedHandler,
-  impressionHandler: impressionHandler/*,
+  impressionHandler: impressionHandler,
+  configuration: {
+    ANALYTICS_ENDPOINT: 'https://fm-analytics.cloudbees.io'/*,
   configuration: {
     API_HOST: API_HOST,
     CD_API_ENDPOINT: `${API_HOST}/device/get_configuration`,
@@ -48,4 +50,5 @@ Rox.setCustomBooleanProperty('isLoggedIn', isLoggedIn())
 Rox.setCustomStringProperty('company', getCompany())
 
 Rox.register('default', Flags)
-Rox.setup('597b8a9b-6869-4a63-7371-828bf21a0c5c', options)
+Rox.setup('16dad1c8-4617-49e9-7823-c699a57c89c2', options) //Pre prod el suborg
+// Rox.setup('597b8a9b-6869-4a63-7371-828bf21a0c5c', options) //PROD
