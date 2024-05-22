@@ -39,8 +39,7 @@ export const Flags = {
   score: new Rox.Flag(false),
   ask: new Rox.Flag(false),
   show: new Rox.Flag(false),
-  headerColor: new Rox.RoxString('is-dark', ['is-dark', 'is-primary', 'is-white']),
-  testEL%-flag: new Rox.Flag(false)
+  headerColor: new Rox.RoxString('is-dark', ['is-dark', 'is-primary', 'is-white'])
   
 }
 
