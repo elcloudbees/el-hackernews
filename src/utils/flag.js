@@ -20,10 +20,7 @@ export const impressionHandler = (reporting) => {
 //const API_HOST = 'https://api-staging.saas-dev.beescloud.com'
 const options = {
   configurationFetchedHandler: configurationFetchedHandler,
-  impressionHandler: impressionHandler,
-  configuration: {
-    ANALYTICS_ENDPOINT: 'https://fm-analytics-preprod.saas-preprod.beescloud.com'
-  }
+  impressionHandler: impressionHandler
   /*,
   configuration: {
     API_HOST: API_HOST,
