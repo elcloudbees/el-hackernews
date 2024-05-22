@@ -22,7 +22,9 @@ const options = {
   configurationFetchedHandler: configurationFetchedHandler,
   impressionHandler: impressionHandler,
   configuration: {
-    ANALYTICS_ENDPOINT: 'https://fm-analytics.cloudbees.io'/*,
+    ANALYTICS_ENDPOINT: 'https://fm-analytics.cloudbees.io'
+  }
+  /*,
   configuration: {
     API_HOST: API_HOST,
     CD_API_ENDPOINT: `${API_HOST}/device/get_configuration`,
