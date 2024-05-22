@@ -16,7 +16,7 @@ export const impressionHandler = (reporting) => {
   }
 }
 
-const API_HOST = 'https://api.cloudbees.io'
+//const API_HOST = 'https://api.cloudbees.io'
 //const API_HOST = 'https://api-staging.saas-dev.beescloud.com'
 const options = {
   configurationFetchedHandler: configurationFetchedHandler,
@@ -39,7 +39,9 @@ export const Flags = {
   score: new Rox.Flag(false),
   ask: new Rox.Flag(false),
   show: new Rox.Flag(false),
-  headerColor: new Rox.RoxString('is-dark', ['is-dark', 'is-primary', 'is-white'])
+  headerColor: new Rox.RoxString('is-dark', ['is-dark', 'is-primary', 'is-white']),
+  testEL%-flag: new Rox.Flag(false)
+  
 }
 
 Rox.setCustomBooleanProperty('isBetaUser', betaAccess())
@@ -47,4 +49,5 @@ Rox.setCustomBooleanProperty('isLoggedIn', isLoggedIn())
 Rox.setCustomStringProperty('company', getCompany())
 
 Rox.register('default', Flags)
-Rox.setup('597b8a9b-6869-4a63-7371-828bf21a0c5c', options)
+Rox.setup('5e42bf99958d710009e4b37c', options)
+//Rox.setup('597b8a9b-6869-4a63-7371-828bf21a0c5c', options)
