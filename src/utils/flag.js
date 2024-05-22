@@ -22,7 +22,7 @@ const options = {
   configurationFetchedHandler: configurationFetchedHandler,
   impressionHandler: impressionHandler,
   configuration: {
-    ANALYTICS_ENDPOINT: 'https://fm-analytics.cloudbees.io'
+    ANALYTICS_ENDPOINT: 'https://fm-analytics-preprod.saas-preprod.beescloud.com'
   }
   /*,
   configuration: {
