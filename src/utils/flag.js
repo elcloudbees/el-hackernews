@@ -49,5 +49,6 @@ Rox.setCustomBooleanProperty('isLoggedIn', isLoggedIn())
 Rox.setCustomStringProperty('company', getCompany())
 
 Rox.register('default', Flags)
-Rox.setup('dc7cec47-5c9f-4511-493f-23ca22ea87bc', options) //Pre prod el suborg
+Rox.setup('45678d6b-e6a5-42f6-65ee-d627bb605d29', options)
+//Rox.setup('dc7cec47-5c9f-4511-493f-23ca22ea87bc', options) //Pre prod el suborg
 // Rox.setup('597b8a9b-6869-4a63-7371-828bf21a0c5c', options) //PROD
