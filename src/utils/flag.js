@@ -46,8 +46,8 @@ export const Flags = {
 
 Rox.setCustomBooleanProperty('isBetaUser', betaAccess())
 Rox.setCustomBooleanProperty('isLoggedIn', isLoggedIn())
-//Rox.setCustomStringProperty('company', getCompany())
-Rox.setCustomStringProperty('getGregProperty', getCompany())
+Rox.setCustomStringProperty('company', getCompany())
+//Rox.setCustomStringProperty('getGregProperty', getCompany())
 
 Rox.register('default', Flags)
 Rox.setup('5e42bf99958d710009e4b37c', options)
