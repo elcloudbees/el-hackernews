@@ -50,7 +50,7 @@ Rox.setCustomStringProperty('company', getCompany())
 //Rox.setCustomStringProperty('getGregProperty', getCompany())
 
 Rox.register('default', Flags)
-Rox.setup('5e42bf99958d710009e4b37c', options)
+Rox.setup('597b8a9b-6869-4a63-7371-828bf21a0c5c', options)
 //Rox.setup('597b8a9b-6869-4a63-7371-828bf21a0c5c', options)
 //Rox.setup('dc7cec47-5c9f-4511-493f-23ca22ea87bc', options) //Pre prod el suborg
 // Rox.setup('597b8a9b-6869-4a63-7371-828bf21a0c5c', options) //PROD
