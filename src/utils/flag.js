@@ -20,7 +20,7 @@ export const impressionHandler = (reporting) => {
 //const API_HOST = 'https://api-staging.saas-dev.beescloud.com'
 const options = {
   configurationFetchedHandler: configurationFetchedHandler,
-  impressionHandler: impressionHandler,
+  impressionHandler: impressionHandler/*,
   configuration: {
     CD_API_ENDPOINT: 'https://api.saas-preprod.beescloud.com/device/get_configuration',
     CD_S3_ENDPOINT: 'https://rox-conf.saas-preprod.beescloud.com/',
@@ -32,6 +32,7 @@ const options = {
   },
   debugLevel: 'verbose',
   disableSignatureVerification: true
+  */
     
   /*,
   configuration: {
@@ -62,5 +63,5 @@ Rox.setCustomStringProperty('company', getCompany())
 //Rox.setCustomStringProperty('getGregProperty', getCompany())
 
 Rox.register('default', Flags)
-Rox.setup('8480c0eb-32e8-4ba9-5c5f-8a096de72081', options)
+Rox.setup('7187091f-0ce5-40a6-48f0-d1d8e82fc1ef', options)
 
