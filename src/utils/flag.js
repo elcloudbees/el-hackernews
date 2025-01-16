@@ -50,7 +50,7 @@ const options = {
 }
 
 export const Flags = {
-  score: new Rox.Flag(false),
+  newScoreELJan16: new Rox.Flag(false),
   ask: new Rox.Flag(false),
   show: new Rox.Flag(false),
   headerColor: new Rox.RoxString('is-dark', ['is-dark', 'is-primary', 'is-white'])
@@ -62,7 +62,7 @@ Rox.setCustomBooleanProperty('isLoggedIn', isLoggedIn())
 Rox.setCustomStringProperty('company', getCompany())
 //Rox.setCustomStringProperty('getGregProperty', getCompany())
 
-Rox.register('default', Flags)
+Rox.register('', Flags)
 Rox.setup('5e42bf99958d710009e4b37c', options)
 //Rox.setup('7187091f-0ce5-40a6-48f0-d1d8e82fc1ef', options)
 
