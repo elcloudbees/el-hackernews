@@ -46,7 +46,7 @@ export default {
   },
   data () {
     return {
-      show_score: Flags.score.isEnabled()
+      show_score: Flags.newScoreELJan16.isEnabled()
     }
   }
 }
