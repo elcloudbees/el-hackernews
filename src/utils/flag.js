@@ -1,4 +1,4 @@
-aimport Rox from 'rox-browser'
+import Rox from 'rox-browser'
 import { betaAccess, isLoggedIn, getCompany } from './users'
 
 export const configurationFetchedHandler = fetcherResults => {
