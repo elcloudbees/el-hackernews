@@ -63,6 +63,6 @@ Rox.setCustomStringProperty('company', getCompany())
 //Rox.setCustomStringProperty('getGregProperty', getCompany())
 
 Rox.register('default', Flags)
-Rox.setup('ad588b34-ef7c-4d76-5d4c-16ee6ab48b44', options)
+Rox.setup('7187091f-0ce5-40a6-48f0-d1d8e82fc1ef', options)
 //Rox.setup('7187091f-0ce5-40a6-48f0-d1d8e82fc1ef', options)
 
